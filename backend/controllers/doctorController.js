@@ -147,6 +147,7 @@ const createDoctor = async (req, res, next) => {
       name: name.trim(),
       email: email.toLowerCase().trim(),
       password: hashedPassword,
+      password_hash: hashedPassword,
       role: ROLES.DOCTOR,
       mobile: mobile || '+919900000000',
       created_at: createdAt,
