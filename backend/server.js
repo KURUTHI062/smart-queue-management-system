@@ -80,4 +80,4 @@ if (process.env.NODE_ENV !== 'test' && require.main === module) {
   });
 }
 
-module.exports = { app, server };
+module.exports = app;
